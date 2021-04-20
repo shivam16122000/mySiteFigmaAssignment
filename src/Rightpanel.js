@@ -6,7 +6,6 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    HashRouter,
     Link
   } from "react-router-dom";
   
@@ -17,14 +16,14 @@ import './Rightpanel.css';
 function Rightpanel() {
     return (
         <div className="rightpanel">
-            <HashRouter basename="/">
+            <Router>
             <RightpanelHeader/>
             
-                
+                <Switch>
                     <Route exact path="/" component={Rightpanel2main} />
                     <Route exact path="/static" component={RightpanelMain} />
-            
-            </HashRouter>
+                </Switch>
+            </Router>
             
             
         </div>
