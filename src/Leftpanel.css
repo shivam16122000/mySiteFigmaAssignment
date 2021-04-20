@@ -1,0 +1,29 @@
+.leftpanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10px;
+    width:25%;
+    height:900px;
+    overflow:visible;
+    background-color:rgba(241, 213, 241,0.45);
+
+}
+.leftpanelItem{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+img{
+    width:30px;
+    height: 30px;
+}
+p{
+    margin-left: 15px;
+
+}
+.icon{
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}

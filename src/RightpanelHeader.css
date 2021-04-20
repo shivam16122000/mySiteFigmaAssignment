@@ -1,0 +1,43 @@
+.rightpanelHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 73vw;
+    height: 50px;
+    border-bottom: 2px solid lightgrey;
+  }
+  .leftcomponent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  .rightcomponent {
+    display: flex;
+    justify-content:flex-start;
+    margin-right: 5px;
+    width:250px;
+  }
+  .rightcomponent>div:hover{
+    color:red;
+    font-size: 30px;
+  }
+  .permission {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    height: 50px;
+  }
+  .matrix {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+  }
+  .icon {
+    margin-top: 15px;
+  }
+  .vertical {
+    border-left: 2px solid gray;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 3px;
+  }
+  

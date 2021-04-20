@@ -1,0 +1,48 @@
+.header-left {
+    display: flex;
+    justify-content: space-around;
+  }
+  .header-right {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2%;
+    padding: 10px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-right > .avatarIcon {
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+  .header-right > .userName {
+    margin-right: 20px;
+    font-weight: 600;
+  }
+  .header-right > .helpIcon {
+    margin-top: 20px;
+  }
+  .header-right > .helpIcon:hover {
+    background-color: lightgray;
+    border-radius: 50%;
+  }
+  .header-right > .notifyIcon {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .header-right > .notifyIcon:hover {
+    background-color: lightgray;
+    border-radius: 50%;
+  }
+  .header-left > .avatar {
+    margin-top: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .header-left > .companyName {
+    margin-right: 10px;
+    color: #76298d;
+  }
+  
