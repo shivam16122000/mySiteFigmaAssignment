@@ -3,12 +3,9 @@ import RightpanelHeader from './RightpanelHeader'
 import RightpanelMain from './Rightpanelmain'
 import Rightpanel2main from './Rightpanel2main'
 import {
-    BrowserRouter as Router,
-    Switch,
+    HashRouter as Router,
     Route,
-    Link
-  } from "react-router-dom";
-  
+    } from 'react-router-dom';
 
 
 import './Rightpanel.css';
@@ -18,11 +15,9 @@ function Rightpanel() {
         <div className="rightpanel">
             <Router>
             <RightpanelHeader/>
-            
-                <Switch>
-                    <Route exact path="/" component={Rightpanel2main} />
-                    <Route exact path="/static" component={RightpanelMain} />
-                </Switch>
+            <Route exact path="/" component={Rightpanel2main} />
+            <Route exact path="/static" component={RightpanelMain} />
+                
             </Router>
             
             
